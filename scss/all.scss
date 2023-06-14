@@ -1,0 +1,119 @@
+*,::after,::before{
+   box-sizing: border-box;
+}
+body{
+   margin: 0;
+   font: 16px 'Montserrat';
+   font-style: normal;
+   position: relative;
+   appearance: none;
+}
+.wrapper{
+   // display: flex;
+   // flex-direction: column;
+   min-height: 100hv;
+}
+.centered{
+   max-width:1125px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+.navbar_panel{
+   padding: 32px 0 32px;
+   margin-left: 430px;
+   // .item_menu{
+      // display: flex;
+      // gap: 72px;  
+      // justify-content: center;
+      // align-items: center;
+   // }
+   li{
+      display: inline;
+      list-style: none;  
+      padding-right: 72px;
+      .nav_stile{
+         color: #ff0000;
+         text-decoration: none;
+         letter-spacing: 2.7px;
+         font-weight: 700;
+         font-size: 18px;
+         line-height: 18px;
+      }
+   }
+}
+.img_part{
+   // display: flex;
+   // flex: 0 0 auto;
+   img{
+      width: 100%;
+      display: block;
+      height: auto;
+   }
+}
+.txt_block{
+   // display: flex;
+   // flex-direction: column;
+   color: #373737;
+   .title_txt_block{
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 27px;
+      letter-spacing: 3.3px;
+      padding-top: 48px;
+      padding-bottom: 38px;
+      text-align: center;
+   }
+   .txt_part1{
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      letter-spacing: 2.4px;
+      text-align: center;
+   }
+   .txt_part2{
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      letter-spacing: 2.4px;
+      text-align: center;
+   }
+}
+.btn_part{
+   // display: flex;
+   // justify-content: center;
+   // align-items: center;
+   padding-top: 66px;
+   padding-bottom: 42px;
+   .btn{
+      border: none;
+      border-radius: 4px;
+      background-color: #ff0000;
+      color: #fff;
+      text-align: center;
+      letter-spacing: 1.8px;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 12px;
+      width: 191px;
+      height: 51px;
+      cursor: pointer;
+      margin: 0 auto;
+      display: block;
+   }
+}
+.info{
+   // display: flex;
+   // justify-content: flex-end;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 20px;
+   letter-spacing: 2.4px;
+   color: #373737;
+   margin-top: 40px;
+   margin-bottom: 29px;
+   text-align: right;
+   display: block;
+   padding-right: 105px;
+}
